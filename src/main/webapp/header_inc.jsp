@@ -1,3 +1,7 @@
+<%@ taglib uri="/WEB-INF/struts-logic.tld" prefix="logic" %>
+<%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html" %>
+<%@ taglib uri="/WEB-INF/struts-bean.tld" prefix="bean" %>
+
 <html:link action="/language" tabindex="1" styleId="lang" styleClass="linkColor">
     <html:param name="language" value="french"/>French
 </html:link>
